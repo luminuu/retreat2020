@@ -410,7 +410,8 @@ body.single-wcb_sponsor .single-featured-image-header {
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px transparent;
 	position: relative;
-	background: #9A338E;
+	background: #5c1e55;
+	background: linear-gradient(45deg,#5c1e55 0%,#9A338E 100%);
 	border: 3px solid #9A338E;
 	color: #fff;
 	transition-property: all;

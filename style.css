@@ -453,6 +453,10 @@ body.single-wcb_sponsor .single-featured-image-header {
 	margin: .5rem auto .5rem auto;
 }
 
+.home-top-block.shutter-out-horizontal i {
+	margin-top: .5rem;
+}
+
 body.home .entry-header {
 	display: none;
 }

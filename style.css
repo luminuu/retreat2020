@@ -30,7 +30,6 @@ h1, h2, h3, h4, h5, h6 {
 	background: #5c1e55;
 	background: linear-gradient(45deg,#5c1e55 0%,#9A338E 100%);
 	border: none;
-	text-align: center;
 }
 
 .navigation-top a {
@@ -47,6 +46,10 @@ h1, h2, h3, h4, h5, h6 {
 .navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
 	color: #fff;
 	text-decoration: underline;
+}
+
+#top-menu {
+	text-align: center;
 }
 
 /* Menu on small screens */

@@ -322,6 +322,7 @@ table.tix_tickets_table thead th {
 
 	.main-navigation ul ul a:hover {
 		color: #9A338E;
+		background: #fff;
 	}
 
 	.site-branding .custom-logo-link img {

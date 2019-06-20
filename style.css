@@ -319,6 +319,11 @@ table.tix_tickets_table thead th {
 	.main-navigation ul ul.sub-menu a {
 		color: #1f141c;
 	}
+	
+	.main-navigation li li {
+		-webkit-transition: none;
+		transition: none;
+	}
 
 	.main-navigation ul ul a:hover {
 		color: #9A338E;

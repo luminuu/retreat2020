@@ -469,6 +469,10 @@ body.single-wcb_sponsor .single-featured-image-header {
   transform: scaleX(1);
 }
 
+.home-top-block.shutter-out-horizontal a {
+	box-shadow: none;
+}
+
 .home-top-block.shutter-out-horizontal a img {
 	box-shadow: none;
 }

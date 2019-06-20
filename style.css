@@ -237,6 +237,10 @@ hr {
 	line-height: 1.25rem;
 }
 
+.site-main ul, .site-main ol {
+	list-style-position: inside;
+}
+
 /* Tickets Table */
 
 table.tix_tickets_table {

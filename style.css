@@ -329,6 +329,18 @@ table.tix_tickets_table thead th {
 		color: #9A338E;
 		background: #fff;
 	}
+	
+	.main-navigation li li.focus > a, 
+	.main-navigation li li:focus > a, 
+	.main-navigation li li:hover > a, 
+	.main-navigation li li a:hover, 
+	.main-navigation li li a:focus, 
+	.main-navigation li li.current_page_item a:hover, 
+	.main-navigation li li.current-menu-item a:hover, 
+	.main-navigation li li.current_page_item a:focus, 
+	.main-navigation li li.current-menu-item a:focus {
+		color: #9A338E;
+	}
 
 	.site-branding .custom-logo-link img {
 		max-height: 110px; 

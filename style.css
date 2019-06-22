@@ -304,6 +304,17 @@ table.tix_tickets_table thead th {
 	.navigation-top a {
 		color: #1f141c;
 	}
+	
+	.navigation-top a:hover,
+	.navigation-top a:focus,
+	.navigation-top a:active {
+		color: #5c1e55;
+		text-decoration: underline;
+	}
+	
+	.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+		color: #1f141c;
+	}
 }
 
 @media screen and (min-width: 37.5em) {

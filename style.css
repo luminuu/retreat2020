@@ -241,37 +241,6 @@ hr {
 	list-style-position: inside;
 }
 
-.main-navigation ul ul.sub-menu a {
-	color: #1f141c;
-}
-
-.main-navigation li li {
-	-webkit-transition: none;
-	transition: none;
-}
-
-.main-navigation ul ul a:hover {
-	color: #9A338E;
-	background: #fff;
-}
-
-.main-navigation li li.focus > a, 
-.main-navigation li li:focus > a, 
-.main-navigation li li:hover > a, 
-.main-navigation li li a:hover, 
-.main-navigation li li a:focus, 
-.main-navigation li li.current_page_item a:hover, 
-.main-navigation li li.current-menu-item a:hover, 
-.main-navigation li li.current_page_item a:focus, 
-.main-navigation li li.current-menu-item a:focus {
-	color: #9A338E;
-}
-
-.main-navigation li li:hover, 
-.main-navigation li li.focus {
-	background: #fff;
-}
-
 /* Tickets Table */
 
 table.tix_tickets_table {
@@ -312,6 +281,12 @@ table.tix_tickets_table thead th {
 }
 
 @media only screen and (max-width: 767px) {
+	
+	
+	
+	
+	
+	
 	.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
 		color: #1f141c;
 	}
@@ -349,6 +324,37 @@ table.tix_tickets_table thead th {
 
 	.main-navigation a {
 		padding: 1em 1em;
+	}
+	
+	.main-navigation ul ul.sub-menu a {
+		color: #1f141c;
+	}
+
+	.main-navigation li li {
+		-webkit-transition: none;
+		transition: none;
+	}
+
+	.main-navigation ul ul a:hover {
+		color: #9A338E;
+		background: #fff;
+	}
+
+	.main-navigation li li.focus > a, 
+	.main-navigation li li:focus > a, 
+	.main-navigation li li:hover > a, 
+	.main-navigation li li a:hover, 
+	.main-navigation li li a:focus, 
+	.main-navigation li li.current_page_item a:hover, 
+	.main-navigation li li.current-menu-item a:hover, 
+	.main-navigation li li.current_page_item a:focus, 
+	.main-navigation li li.current-menu-item a:focus {
+		color: #9A338E;
+	}
+
+	.main-navigation li li:hover, 
+	.main-navigation li li.focus {
+		background: #fff;
 	}
 	
 	.site-branding .custom-logo-link img {

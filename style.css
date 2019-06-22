@@ -287,7 +287,21 @@ table.tix_tickets_table thead th {
 	
 	
 	
-	.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.menu-toggle {
+		color: #fff;
+	}
+	
+	.navigation-top a {
 		color: #1f141c;
 	}
 }

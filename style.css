@@ -268,12 +268,12 @@ table.tix_tickets_table .tix-column-price,
 table.tix_tickets_table .tix-column-remaining,
 table.tix_tickets_table .tix-column-quantity {
 	text-align: center;
-	border-left: 1px solid rgba(250,178,0, 0.2);
+	border-left: 1px solid #9A338E;
 }
 
 table.tix_tickets_table tr,
 table.tix_tickets_table thead th {
-	border-bottom: 1px solid rgba(250,178,0, 0.2);
+	border-bottom: 1px solid #9A338E;
 	padding: .5rem;
 }
 

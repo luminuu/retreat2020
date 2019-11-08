@@ -259,6 +259,10 @@ table.tix_tickets_table td {
 	padding: .25rem;
 }
 
+table.tix_tickets_table thead th {
+	color: #fff;
+}
+
 
 table.tix_tickets_table .tix-column-price,
 table.tix_tickets_table .tix-column-remaining,

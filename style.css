@@ -759,37 +759,37 @@ table.wcpt-schedule span.wcpt-session-speakers a {
 
 }
 
+
 /** attendee list **/
-#tix-attendee-list {
+.tix-attendee-list {
     display: flex;
     flex-flow: row wrap;
 }
 
-#tix-attendee-list li {
+.tix-attendee-list li, #tix-attendees .tix-columns-3 li {
     float: none;
     width: 100%;
 }
 
 @media screen and (min-width: 550px) {
-    #tix-attendee-list li {
+    .tix-attendee-list li, #tix-attendees .tix-columns-3 li {
         width: 50%;
     }
 }
 
 @media screen and (min-width: 750px) {
-    #tix-attendee-list li {
+    .tix-attendee-list li, #tix-attendees .tix-columns-3 li {
         width: 33.333%;
     }
 }
 
-
 @supports (display: grid) {
-    #tix-attendee-list {
+    .tix-attendee-list {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     }
 
-    #tix-attendee-list li {
+    .tix-attendee-list li, #tix-attendees .tix-columns-3 li {
         width: auto;
     }
 }

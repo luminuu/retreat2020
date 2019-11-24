@@ -285,22 +285,6 @@ table.tix_tickets_table thead th {
 }
 
 @media only screen and (max-width: 767px) {
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	.menu-toggle {
 		color: #fff;
 	}
@@ -773,4 +757,39 @@ table.wcpt-schedule span.wcpt-session-speakers a {
 		max-height: 55px !important;
 	}
 
+}
+
+/** attendee list **/
+#tix-attendee-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#tix-attendee-list li {
+    float: none;
+    width: 100%;
+}
+
+@media screen and (min-width: 550px) {
+    #tix-attendee-list li {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    #tix-attendee-list li {
+        width: 33.333%;
+    }
+}
+
+
+@supports (display: grid) {
+    #tix-attendee-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    #tix-attendee-list li {
+        width: auto;
+    }
 }

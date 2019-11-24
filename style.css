@@ -793,3 +793,8 @@ table.wcpt-schedule span.wcpt-session-speakers a {
         width: auto;
     }
 }
+
+.tix-attendee-list a.tix-field {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
